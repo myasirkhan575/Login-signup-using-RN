@@ -6,8 +6,9 @@
  * @flow strict-local
  */
 
-import React  from 'react';
-import {
+import React from 'react';
+import
+{
   SafeAreaView,
   StyleSheet,
   ScrollView,
@@ -17,7 +18,8 @@ import {
   TextInput,
 } from 'react-native';
 
-import {
+import
+{
   Header,
   LearnMoreLinks,
   Colors,
@@ -26,26 +28,27 @@ import {
 } from 'react-native/Libraries/NewAppScreen';
 // import { txtinp } from './styles'
 
-const App = (props) => {
- 
-  
-   
- 
+const App = (props) =>
+{
+
+
+
+
   return (
     <SafeAreaView>
       <ScrollView>
-      <View>
-      <TextInput />
-      
-    </View>
+        <View>
+          <TextInput />
+          <TextInput />
+        </View>
       </ScrollView>
     </SafeAreaView>
-   
-    
+
+
 
 
 
   );
-};
-    
+};s
+
 export default App;
